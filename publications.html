@@ -1,0 +1,248 @@
+---
+layout: default
+title: Publications
+---
+
+<!-- To add icons (below), have to remove underline from link style yet, and change text color -->
+<div class="container">
+	<ul class="icons">
+		<li><a target="_blank" rel="noopener noreferrer" href="https://www.researcherid.com/rid/A-6720-2008" class="ai ai-researcherid ai-2x"></a></li>
+		<li><a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/profile/Daniel_Viviroli" class="ai ai-researchgate fa-2x"></a></li>
+		<li><a target="_blank" rel="noopener noreferrer" href="https://scholar.google.ch/citations?user=azF7iyMAAAAJ&hl=de" class="ai ai-google-scholar ai-2x"></a></li>
+		<li><a target="_blank" rel="noopener noreferrer" href="https://orcid.org/0000-0002-1214-8657" class="ai ai-orcid ai-2x"></a></li>
+		<li><b><a target="_blank" rel="noopener noreferrer" href="https://www.zora.uzh.ch/view/authorsnew/Viviroli=3AD=3A=3A.html" style="font-size:11pt;line-height:0.95;display:block">Zurich Open Repository<br>and Archive (ZORA)</a></b></li>
+	<ul>
+</div>
+
+<h2>Articles in peer-reviewed journals</h2>
+<a class="anchor" id="JP"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_papers-peer-reviewed %}
+		<li>
+			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			{% capture lastchar %}{{ publication.title | slice:-1 }}{% endcapture %}
+			{% if lastchar == "?" or lastchar == "!" %}
+				{{ publication.title }}
+			{% else %}
+				{{ publication.title }}.
+			{% endif %}
+			<i>{{ publication.journal }}</i>,
+			{% if publication.volume == "in press" or publication.volume == "accepted" %}
+				{% if publication.doi %}
+					{{ publication.volume }},
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+				{% else %}
+					{{ publication.volume }}.
+				{% endif %}
+			{% elsif publication.issue and publication.doi %}
+				<b>{{ publication.volume }}</b>({{ publication.issue }}),
+				{{ publication.pages }},
+				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+			{% elsif publication.issue and publication.doi == null %}
+				<b>{{ publication.volume }}</b>({{ publication.issue }}),
+				{{ publication.pages }}.
+			{% elsif publication.issue == null and publication.doi %}
+				<b>{{ publication.volume }}</b>,
+				{{ publication.pages }},
+				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+			{% else %}
+				<b>{{ publication.volume }}</b>,
+				{{ publication.pages }}.
+			{% endif %}
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Authored monographs</h2>
+<a class="anchor" id="BM"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_authored-monographs %}
+		<li>
+			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			<i>{{ publication.title }}</i>.
+			{% if publication.subtitle %}
+				{{ publication.subtitle }}.
+			{% endif %}
+			{% if publication.series and publication.volume %}
+				{{ publication.series }}, <b>{{ publication.volume }}</b>.
+			{% endif %}
+			{% if publication.publisher and publication.place            and publication.isbn         %}
+				{{ publication.publisher }}, {{ publication.place }}, ISBN {{ publication.isbn }}.
+			{% elsif publication.publisher and publication.place == null and publication.isbn         %}
+				{{ publication.publisher }}, ISBN {{ publication.isbn }}.
+			{% elsif publication.publisher and publication.place         and publication.isbn == null %}
+				{{ publication.publisher }}, {{ publication.place }}.
+			{% elsif publication.publisher and publication.place == null and publication.isbn == null %}
+				{{ publication.publisher }}.
+			{% endif %}
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Edited special issues in peer-reviewed journals</h2>
+<a class="anchor" id="JE"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_edited-journals %}
+		<li>
+			<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			{{ publication.title }}.
+			<i>{{ publication.journal }}</i>,
+			{{ publication.specialissuename }}, <b>{{ publication.specialissuevolume }}</b>.
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Edited books</h2>
+<a class="anchor" id="BE"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_edited-books %}
+		<li>
+			<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			<i>{{ publication.title }}</i>.
+			{% if publication.series and publication.volume %}
+				{{ publication.series }}, <b>{{ publication.volume }}</b>.
+			{% endif %}
+				{% if publication.publisher and publication.place and publication.isbn %}
+					{{ publication.publisher }}, {{ publication.place }}, ISBN {{ publication.isbn }}.
+			{% elsif publication.publisher and publication.place == null and publication.isbn %}
+				{{ publication.publisher }}, ISBN {{ publication.isbn }}.
+			{% elsif publication.publisher and publication.place == null and publication.isbn == null %}
+				{{ publication.publisher }}.
+			{% endif %}
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Book chapters</h2>
+<a class="anchor" id="BC"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_book-chapters %}
+		<li>
+			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			{{ publication.title }}.
+			{% if publication.editors %}
+				<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}.</b>
+			{% endif %}
+			{% if publication.booktitle %}
+				<i>{{ publication.booktitle }}</i>.
+				{% if publication.series and publication.volume %}
+					{{ publication.series }}, <b>{{ publication.volume }}</b>.
+				{% endif %}
+			{% elsif publication.series and publication.volume %}
+				<i>{{ publication.series }}</i>, <b>{{ publication.volume }}</b>.
+			{% endif %}
+			{% if    publication.publisher and publication.place         and publication.isbn         %}
+				{{ publication.publisher }}, {{ publication.place }}, ISBN {{ publication.isbn }}.
+			{% elsif publication.publisher and publication.place == null and publication.isbn         %}
+				{{ publication.publisher }}, ISBN {{ publication.isbn }}.
+			{% elsif publication.publisher and publication.place         and publication.isbn == null %}
+				{{ publication.publisher }}, {{ publication.place }}.
+			{% elsif publication.publisher and publication.place == null and publication.isbn == null %}
+				{{ publication.publisher }}.
+			{% endif %}
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Articles in further journals</h2>
+<a class="anchor" id="JF"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_papers-further %}
+		<li>
+			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			{{ publication.title }}.
+			<i>{{ publication.journal }}</i>,
+			{% if publication.issue and publication.doi %}
+				<b>{{ publication.volume }}</b>({{ publication.issue }}),
+				{{ publication.pages }},
+				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+			{% elsif publication.issue and publication.doi == null %}
+				<b>{{ publication.volume }}</b>({{ publication.issue }}),
+				{{ publication.pages }}.
+			{% elsif publication.issue == null and publication.doi %}
+				<b>{{ publication.volume }}</b>,
+				{{ publication.pages }},
+				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+			{% else %}
+				<b>{{ publication.volume }}</b>,
+				{{ publication.pages }}.
+			{% endif %}
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Conference proceedings</h2>
+<a class="anchor" id="CP"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_conference-proceedings %}
+		<li>
+			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			{{ publication.title }}.
+			{% if publication.editors %}
+				<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}.</b>
+			{% endif %}
+			{% if publication.booktitle %}
+				<i>{{ publication.booktitle }}</i>.
+				{% if publication.series and publication.volume %}
+					{{ publication.series }}, <b>{{ publication.volume }}</b>.
+				{% endif %}
+			{% elsif publication.series and publication.volume %}
+				<i>{{ publication.series }}</i>, <b>{{ publication.volume }}</b>.
+			{% endif %}
+			{% if    publication.publisher and publication.place         and publication.isbn         %}
+				{{ publication.publisher }}, {{ publication.place }}, ISBN {{ publication.isbn }}.
+			{% elsif publication.publisher and publication.place == null and publication.isbn         %}
+				{{ publication.publisher }}, ISBN {{ publication.isbn }}.
+			{% elsif publication.publisher and publication.place         and publication.isbn == null %}
+				{{ publication.publisher }}, {{ publication.place }}.
+			{% elsif publication.publisher and publication.place == null and publication.isbn == null %}
+				{{ publication.publisher }}.
+			{% endif %}
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Project reports</h2>
+<a class="anchor" id="PR"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_project-reports %}
+		<li>
+			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			<i>{{ publication.title }}</i>.
+			{% if publication.report %}
+				{{ publication.report }}.
+			{% endif %}
+			{{ publication.institution }}.
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>

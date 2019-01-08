@@ -1,0 +1,30 @@
+- title: Home
+  url: /index.html
+
+- title: Publications
+  url: /publications.html
+  sub_n: 8
+  sub1_text: Peer-reviewed
+  sub1_anchor: JP
+  sub2_text: Authored monographs
+  sub2_anchor: BM
+  sub3_text: Edited special issues
+  sub3_anchor: JE
+  sub4_text: Edited books
+  sub4_anchor: BE
+  sub5_text: Book chapters
+  sub5_anchor: BC
+  sub6_text: Further journals
+  sub6_anchor: JF
+  sub7_text: Conference proceedings
+  sub7_anchor: CP
+  sub8_text: Project reports
+  sub8_anchor: PR
+
+- title: Projects
+  url: /projects.html
+  sub_n: 2
+  sub1_text: Current
+  sub1_anchor: curr
+  sub2_text: Completed
+  sub2_anchor: compl

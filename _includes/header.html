@@ -1,0 +1,26 @@
+<header id="header" class={{ page.navtype }}>
+  {% if page.navtype != "alt" %}
+    <h1><a href="index.html">Daniel Viviroli</a></h1>
+  {% else %}
+    <h1>Daniel Viviroli</h1>
+  {% endif %}
+  <nav id="nav">
+    <ul>
+      {% for entry in site.data.navigation %}
+        <li{{ current }}><a href="{{ entry.url }}">{{ entry.title }}</a>
+        {% if entry.sub_n %}
+          <ul>
+            {% for sub_i in (1..{{entry.sub_n}}) %}
+              {% capture dropdown_link %}sub{{sub_i}}_anchor{% endcapture %}
+              {% capture dropdown_text %}sub{{sub_i}}_text{% endcapture %}
+              <a href={{ entry.url }}#{{ entry.[dropdown_link] }}>{{ entry.[dropdown_text] }}</a>
+              {% if sub_i < {{entry.sub_n}} %}<br>{% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
