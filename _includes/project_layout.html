@@ -1,0 +1,42 @@
+<tr valign="top" style="height:3em">
+	<td align="right" style="width:5.5em">
+		<b>{{ project.years }}</b></td>
+	<td style="width:0.75rem"></td>
+	<td>
+		<b>{{ project.title }}</b><br>
+		<i>{{ project.subtitle }}</i>
+	</td>
+</tr>
+{% if project.where %}
+	<tr valign="top">
+		<td align="right">Realised at:</td>
+		<td/>
+		<td>{{ project.where | replace:'§',' · '}}</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+{% if project.collaboration %}
+	<tr valign="top">
+		<td align="right">Collaboration:</td>
+		<td/>
+		<td>{{ project.collaboration | replace:'§',' · '}}</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+{% if project.funding %}
+	<tr valign="top">
+		<td align="right">Funding:</td>
+		<td/>
+		<td>{{ project.funding | replace:'§',' · '}}</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+{% if project.moreinfo_link %}
+	<tr valign="top">
+		<td align="right"></td>
+		<td/>
+		<td><a target="_blank" rel="noopener noreferrer" href={{ project.moreinfo_link }}>{{ project.moreinfo_text }}</a></td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+<tr style="height:2.0em"><td/></tr>
