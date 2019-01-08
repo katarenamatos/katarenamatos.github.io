@@ -28,3 +28,9 @@
   sub1_anchor: curr
   sub2_text: Completed
   sub2_anchor: compl
+
+- title: Photography
+  url: /photography.html
+  sub_n: 1
+  sub1_text: Water
+  sub1_anchor: wa
