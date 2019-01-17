@@ -31,6 +31,8 @@
 
 - title: Photography
   url: /photography.html
-  sub_n: 1
+  sub_n: 2
   sub1_text: Water
   sub1_anchor: wa
+  sub2_text: Mountains
+  sub2_anchor: mo

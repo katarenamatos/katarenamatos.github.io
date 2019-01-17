@@ -24,4 +24,23 @@ title: Photography
 		{% endfor %}
 	</section>
 
+	<section id="main">
+		<div class="container">
+			<h2 style="padding-top: 2em">Mountains</h2>
+			<a class="anchor" id="mo"></a>
+		</div>
+	</section>
+
+	<section id="main" class="wrapper">
+		{% for image in site.static_files %}
+			{% if image.path contains 'fulls' and image.path contains 'mountains' %}
+				<article class="thumb">
+					<a href="{{ site.baseurl }}{{ site.image_mountains_fulls_loc }}/{{ image.name }}" class="image">
+						<img src="{{ site.baseurl }}{{ site.image_mountains_thumbs_loc }}/{{ image.name }}" alt=""/>
+					</a>
+				</article>
+			{% endif %}
+		{% endfor %}
+	</section>
+
 </div>
