@@ -26,6 +26,10 @@
 		animation-duration: 0.25s;
 	}
 
+	small {
+		  font-size: 66%;
+		}
+
 	ol, ul {
 		list-style: none;
 	}
