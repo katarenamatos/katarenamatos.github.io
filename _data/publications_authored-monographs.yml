@@ -9,8 +9,9 @@
   pdf: https://naturwissenschaften.ch/service/publications/55433-prozessbasierte-hochwasserabschaetzung-fuer-mesoskalige-einzugsgebiete
   pdf_openaccess: Y
   link: "http://www.hydrologie.unibe.ch/PREVAHregHQ/home.html"
-  link_text: Download data (external link)
-  
+  link_text: Download data
+  link_external: Y
+
 - authors: Viviroli D, Gurtz J, Zappa M
   year: 2007
   title: The Hydrological Modelling System PREVAH

@@ -2,7 +2,9 @@
   year: 2019
   title: "Value of a limited number of discharge observations for improving regionalisation: A large-sample study across the United States"
   journal: Water Resources Research
-  volume: in press
+  volume: 55
+  issue: 1
+  pages: 363–377
   doi: 10.1029/2018WR023855
 
 - authors: Brunner MI, Furrer R, Sikorska AE, Viviroli D, Seibert J, Favre AC
@@ -12,7 +14,7 @@
   volume: 32
   issue: 7
   pages: 1993–2023
-  doi: "10.1007/s00477-018-1523-3"
+  doi: 10.1007/s00477-018-1523-3
 
 - authors: Brunner MI, Viviroli D, Furrer R, Seibert J, Favre AC
   year: 2018
@@ -50,6 +52,7 @@
   doi: 10.1088/1748-9326/aa5efc
   pdf: http://iopscience.iop.org/article/10.1088/1748-9326/aa5efc/pdf
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Pool S, Viviroli D, Seibert J
   year: 2017
@@ -69,6 +72,7 @@
   doi: 10.1088/1748-9326/11/3/034010
   pdf: http://iopscience.iop.org/article/10.1088/1748-9326/11/3/034010/pdf
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Mankin JS, Viviroli D, Singh D, Hoekstra AY, Diffenbaugh NS
   year: 2015
@@ -81,6 +85,7 @@
   notes: "Featured as one of the journal's 25 'Highlights of 2015'"
   pdf: http://iopscience.iop.org/article/10.1088/1748-9326/10/11/114016/pdf
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Sikorska AE, Viviroli D, Seibert J
   year: 2015
@@ -121,6 +126,7 @@
   doi: 10.5194/hess-17-619-2013
   pdf: http://www.hydrol-earth-syst-sci.net/17/619/2013/hess-17-619-2013.html
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Viviroli D, Schädler B, Schmocker-Fackel P, Weiler M, Seibert J
   year: 2012
@@ -132,6 +138,7 @@
   doi: 10.1029/2011WR011690
   pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2011WR011690
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Köplin N, Schädler B, Viviroli D, Weingartner R
   year: 2012
@@ -143,6 +150,7 @@
   doi: 10.5194/hess-16-2267-2012
   pdf: http://www.hydrol-earth-syst-sci.net/16/2267/2012/
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Viviroli D, Archer DR, Buytaert W, Fowler HJ, Greenwood GB, Hamlet AF, Huang Y, Koboltschnig G, Litaor I, López-Moreno JI, Lorentz S, Schädler B, Schreier H, Schwaiger K, Vuille M, Woods R
   year: 2011
@@ -154,6 +162,7 @@
   doi: 10.5194/hess-15-471-2011
   pdf: http://www.hydrol-earth-syst-sci.net/15/471/2011/
   pdf_openaccess: Y
+  pdf_external: Y
   notes: "Highly cited paper (in the top 1% of the academic field of Geosciences as to Essential Science Indicators)"
 
 - authors: Viviroli D, Weingartner R
@@ -183,6 +192,7 @@
   doi: 10.1029/2010WR009792
   pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2010WR009792
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Viviroli D, Mittelbach H, Gurtz J, Weingartner R
   year: 2009
@@ -225,6 +235,7 @@
   doi: 10.1029/2006WR005653
   pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2006WR005653
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Weingartner R, Viviroli D, Schädler B
   year: 2007
@@ -254,6 +265,7 @@
   doi: 10.5194/hess-8-1017-2004
   pdf: http://www.hydrol-earth-syst-sci.net/8/1017/2004/hess-8-1017-2004.pdf
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Messerli B, Viviroli D, Weingartner R
   year: 2004
@@ -272,6 +284,7 @@
   doi: 10.1659/0276-4741(2003)023[0032:ATHSOT]2.0.CO;2
   pdf: http://www.bioone.org/doi/pdf/10.1659/0276-4741%282003%29023%5B0032%3AATHSOT%5D2.0.CO%3B2
   pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Messerli B, Viviroli D, Weingartner R
   year: 2001
@@ -283,3 +296,4 @@
   doi: 10.1659/0276-4741(2001)021[0307:C]2.0.CO;2
   pdf: http://www.bioone.org/doi/pdf/10.1659/0276-4741%282001%29021%5B0307%3AC%5D2.0.CO%3B2
   pdf_openaccess: Y
+  pdf_external: Y

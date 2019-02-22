@@ -2,13 +2,21 @@
 {% if publication.pdf %}
   <br>
   <span style="display:block; height:0.50em;"></span>
-    > <a target="_blank" rel="noopener noreferrer" href={{ publication.pdf }}>Download pdf</a>
-    {% if publication.pdf_openaccess %}
+  > <a target="_blank" rel="noopener noreferrer" href={{ publication.pdf }}>Download pdf</a>
+  {% if publication.pdf_external %}
+    <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ publication.link }}>
       <div class="tooltip">
-        <i class="ai ai-open-access"></i>
-        <span class="tooltiptext">Open access</span>
+        <i class="fas fa-external-link-alt fa-xs"></i>
+        <span class="tooltiptext">External link</span>
       </div>
-    {% endif %}
+    </a>
+  {% endif %}
+  {% if publication.pdf_openaccess %}
+    <div class="tooltip">
+      <i class="ai ai-open-access"></i>
+      <span class="tooltiptext">Open access</span>
+    </div>
+  {% endif %}
 {% endif %}
 
 {% if publication.notes %}
@@ -23,10 +31,12 @@
   <br>
   <span style="display:block; height:0.50em;"></span>
   > <a target="_blank" rel="noopener noreferrer" href={{ publication.link }}>{{ publication.link_text }}</a>
-  {% if publication.link_openaccess %}
-    <div class="tooltip">
-      <i class="ai ai-open-access"></i>
-      <span class="tooltiptext">Open access</span>
-    </div>
+  {% if publication.link_external %}
+    <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ publication.link }}>
+      <div class="tooltip">
+        <i class="fas fa-external-link-alt fa-xs"></i>
+        <span class="tooltiptext">External link</span>
+      </div>
+    </a>
   {% endif %}
 {% endif %}
