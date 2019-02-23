@@ -38,5 +38,13 @@
 		<td><a target="_blank" rel="noopener noreferrer" href={{ project.moreinfo_link }}>{{ project.moreinfo_text }}</a></td>
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
+	{% if project.moreinfo_external %}
+		<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ project.moreinfo_link }}>
+			<div class="tooltip">
+				<i class="fas fa-external-link-alt fa-xs"></i>
+				<span class="tooltiptext">External link</span>
+			</div>
+		</a>
+	{% endif %}
 {% endif %}
 <tr style="height:2.0em"><td/></tr>

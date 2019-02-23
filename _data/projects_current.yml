@@ -5,6 +5,7 @@
   funding: Swiss Federal Office for the Environment (FOEN)§Cantons of Aargau, Bern and Solothurn
   moreinfo_link: "https://www.bafu.admin.ch/bafu/de/home/themen/klima/fachinformationen/anpassung-an-den-klimawandel/pilotprogramm-anpassung-an-den-klimawandel.html"
   moreinfo_text: More info
+  moreinfo_external: Y
 
 - title: Hydrological basis for climate change adaptation measures (Hydro-CH2018)
   subtitle: Synthesis report for Switzerland, contributions to chapters on uncertainties and on floods
@@ -13,6 +14,7 @@
   funding: Swiss Federal Office for the Environment (FOEN)
   moreinfo_link: "https://www.bafu.admin.ch/bafu/en/home/topics/water/info-specialists/state-of-waterbodies/state-of-watercourses/water-flow-and-flow-regime-in-watercourses/climate-change-and-hydrology/hydro-ch2018.html"
   moreinfo_text: More info
+  moreinfo_external: Y
 
 - title: Understanding extreme flood events in the Aare River (EXAR)
   subtitle: Analyses based on comprehensive meteorological, hydrological and hydraulic modelling
@@ -21,6 +23,7 @@
   funding: Swiss Federal Office for the Environment (FOEN)§Swiss Federal Nuclear Safety Inspectorate (ENSI)§Swiss Federal Office of Energy (SFOE)§Swiss Federal Office for Civil Protection (FOCP)§Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
   moreinfo_link: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/dossiers/grossprojekte-hochwasserschutz/gefahrengrundlagen-fuer-extremhochwasser-an-aare-und-rhein--exar.html"
   moreinfo_text: More info
+  moreinfo_external: Y
 
 - title: Value of data in ungauged catchments
   subtitle: Can hydrological models be improved with well-targeted field measurements?

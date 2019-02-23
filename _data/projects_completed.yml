@@ -24,6 +24,7 @@
   funding: Numerous companies, municipalities and cantons in Switzerland§Swiss Federal Railways (SBB)§Swiss Federal Roads Office (FEDRO)
   moreinfo_link: "https://www.belop.ch/referenzen/naturgefahren-wasserbau"
   moreinfo_text: More info
+  moreinfo_external: Y
 
 - title: Residual flow values in the Landquart, Hinterrhein and Vorderrhein Rivers, Grisons, CH
   subtitle: Process-oriented hydrological modelling with consideration of hydropower use
@@ -40,6 +41,7 @@
   funding: Swiss Federal Office for the Environment (FOEN)
   moreinfo_link: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
   moreinfo_text: More info
+  moreinfo_external: Y
 
 - title: Climate change and water resources management in mountain areas
   subtitle: Conception, organisation and moderation of an international invited workshop in Göschenen, CH
@@ -55,6 +57,7 @@
   funding: Swiss Federal Office for the Environment (FOEN)
   moreinfo_link: "http://www.hydrologie.unibe.ch/PREVAHregHQ/home.html"
   moreinfo_text: More info
+  moreinfo_external: Y
 
 - title: Flood prediction model for the Sihl River, Zurich
   subtitle: Coupling of process-oriented hydrological modelling (PREVAH) and hydraulic modelling (FLORIS)
@@ -71,6 +74,7 @@
   funding: Swiss Federal Office for the Environment (FOEN)
   moreinfo_link: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/publikationen-studien/publikationen/ereignisanalyse-hochwasser-2005-analyse-von-prozessen-massnahmen-und-gefahrengrundlagen.html"
   moreinfo_text: More info
+  moreinfo_external: Y
 
 - title: Worst-Case scenarios for the Sihl River, Zürich
   subtitle: Scenario and historical analyses using process-oriented hydrological modelling
