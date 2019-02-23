@@ -2,7 +2,7 @@
 
 Homepage of Daniel Viviroli
 
-Collection of my research into water in mountain areas,
+Info on my research into water in mountain areas,
 and some selected photographs
 
 Keywords:
