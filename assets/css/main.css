@@ -2764,7 +2764,7 @@
 
 		/* .wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("../../images/copyrighted/homeimg.jpg");
+			background-image: url("/images/copyrighted/homeimg.jpg");
 			background-position: center center;
 			background-size: cover;
 		} */
@@ -3147,7 +3147,7 @@
 		padding: 50vh 0 50vh 0; /* adjust banner height here (and would have to do it for other media screen formats as well!), solved now via viewport dimensions */
 		animation: fadein;
 		animation-duration: 2.5s;
-		background-image: url("../../images/copyrighted/homeimg.jpg");
+		background-image: url("/images/copyrighted/homeimg.jpg");
 		background-attachment: fixed;
 		background-position: center center; /* here (2nd word) can adjust whether image is snapping to "top" or "center" or "bottom" */
 		background-size: cover;

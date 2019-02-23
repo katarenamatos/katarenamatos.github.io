@@ -104,7 +104,7 @@
   issue: 1
   pages: 49–61
   doi: 10.1016/j.jhydrol.2015.07.009
-  pdf: ../../documents/Viviroli_and_Seibert_2015_JoH_529.pdf
+  pdf: /documents/Viviroli_and_Seibert_2015_JoH_529.pdf
 
 
 - authors: Köplin N, Schädler B, Viviroli D, Weingartner R
@@ -173,7 +173,7 @@
   volume: 55
   issue: 5
   pages: 258–272
-  pdf: ../../documents/Viviroli_und_Weingartner_2011_HyWa_55.pdf
+  pdf: /documents/Viviroli_und_Weingartner_2011_HyWa_55.pdf
 
 - authors: Meyer R, Schädler B, Viviroli D, Weingartner R
   year: 2011
@@ -203,7 +203,7 @@
   issue: 1–2
   pages: 208–225
   doi: 10.1016/j.jhydrol.2009.08.022
-  pdf: ../../documents/Viviroli_et_al_2009_JoH_377b.pdf
+  pdf: /documents/Viviroli_et_al_2009_JoH_377b.pdf
 
 - authors: Viviroli D, Zappa M, Schwanbeck J, Gurtz J, Weingartner R
   year: 2009
@@ -213,7 +213,7 @@
   issue: 1–2
   pages: 191–207
   doi: 10.1016/j.jhydrol.2009.08.023
-  pdf: ../../documents/Viviroli_et_al_2009_JoH_377a.pdf
+  pdf: /documents/Viviroli_et_al_2009_JoH_377a.pdf
 
 - authors: Viviroli D, Zappa M, Gurtz J, Weingartner R
   year: 2009
@@ -223,7 +223,7 @@
   issue: 10
   pages: 1209–1222
   doi: 10.1016/j.envsoft.2009.04.001
-  pdf: ../../documents/Viviroli_et_al_2009_EMS_24.pdf
+  pdf: /documents/Viviroli_et_al_2009_EMS_24.pdf
   notes: "Highly cited paper (in the top 1% of the academic field of Computer Sciences as to Essential Science Indicators)"
 
 - authors: Viviroli D, Dürr HH, Messerli B, Meybeck M, Weingartner R
