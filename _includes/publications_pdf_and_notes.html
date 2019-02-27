@@ -40,3 +40,31 @@
     </a>
   {% endif %}
 {% endif %}
+
+{% if publication.link2 %}
+  <br>
+  <span style="display:block; height:0.50em;"></span>
+  > <a target="_blank" rel="noopener noreferrer" href={{ publication.link2 }}>{{ publication.link2_text }}</a>
+  {% if publication.link2_external %}
+    <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ publication.link2 }}>
+      <div class="tooltip">
+        <i class="fas fa-external-link-alt fa-xs"></i>
+        <span class="tooltiptext">External link</span>
+      </div>
+    </a>
+  {% endif %}
+{% endif %}
+
+{% if publication.link3 %}
+  <br>
+  <span style="display:block; height:0.50em;"></span>
+  > <a target="_blank" rel="noopener noreferrer" href={{ publication.link3 }}>{{ publication.link3_text }}</a>
+  {% if publication.link3_external %}
+    <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ publication.link3 }}>
+      <div class="tooltip">
+        <i class="fas fa-external-link-alt fa-xs"></i>
+        <span class="tooltiptext">External link</span>
+      </div>
+    </a>
+  {% endif %}
+{% endif %}

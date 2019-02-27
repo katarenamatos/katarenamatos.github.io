@@ -7,7 +7,7 @@
   place: Bern
   isbn: 978-3-033-03497-6
   pdf: https://naturwissenschaften.ch/service/publications/55433-prozessbasierte-hochwasserabschaetzung-fuer-mesoskalige-einzugsgebiete
-  pdf_openaccess: Y
+  pdf_external: Y
   link: "http://www.hydrologie.unibe.ch/PREVAHregHQ/home.html"
   link_text: Download data
   link_external: Y
@@ -20,6 +20,8 @@
   publisher: Institute of Geography, University of Bern
   place: Bern
   isbn: 978-3-90583501-4
+  link: /documents/Viviroli_et_al_2007_GB_P40_I.pdf
+  link_text: Download Part I (overview) as pdf
 
 - authors: Viviroli D
   year: 2007

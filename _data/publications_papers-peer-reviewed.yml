@@ -64,6 +64,7 @@
   volume: 554
   pages: 613–622
   doi: 10.1016/j.jhydrol.2017.09.037
+  pdf: /documents/Pool_et_al_2017_JoH_554.pdf
 
 - authors: Kummu M, de Moel H, Salvucci G, Viviroli D, Ward PJ, Varis O
   year: 2016
@@ -98,6 +99,9 @@
   issue: 10
   pages: 7959–7976
   doi: 10.1002/2015WR017326
+  pdf: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015WR017326
+  pdf_openaccess: Y
+  pdf_external: Y
 
 - authors: Viviroli D, Seibert J
   year: 2015
