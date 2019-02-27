@@ -42,7 +42,7 @@
   publisher: Bundesamt für Umwelt
   place: Bern
   isbn: 978-3-95202620-5
-  pdf_link: https://hydrologischeratlas.ch/produkte/druckausgabe/wasserhaushalt/tafel-6-5
+  pdf: https://hydrologischeratlas.ch/produkte/druckausgabe/wasserhaushalt/tafel-6-5
   pdf_external: Y
 
 - authors: Viviroli D, Messerli B, Schädler B, Weingartner R
@@ -65,7 +65,7 @@
   publisher: Bundesamt für Umwelt
   place: Bern
   pages: 48–58
-  pdf_link: https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/publikationen-studien/publikationen/ereignisanalyse-hochwasser-2005-analyse-von-prozessen-massnahmen-und-gefahrengrundlagen.html
+  pdf: https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/publikationen-studien/publikationen/ereignisanalyse-hochwasser-2005-analyse-von-prozessen-massnahmen-und-gefahrengrundlagen.html
 
 - authors: Viviroli D, Weingartner R
   year: 2004
@@ -75,7 +75,7 @@
   publisher: Bundesamt für Umwelt
   place: Bern
   isbn: 978-3-95202620-5
-  pdf_link: https://hydrologischeratlas.ch/produkte/druckausgabe/wasserhaushalt/tafel-6-4
+  pdf: https://hydrologischeratlas.ch/produkte/druckausgabe/wasserhaushalt/tafel-6-4
   pdf_external: Y
 
 - authors: Jakob B, Viviroli D, Zahnen B
