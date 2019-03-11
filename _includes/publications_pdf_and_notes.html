@@ -2,9 +2,14 @@
 {% if publication.pdf %}
   <br>
   <span style="display:block; height:0.50em;"></span>
-  > <a target="_blank" rel="noopener noreferrer" href={{ publication.pdf }}>Download pdf</a>
+  {% if publication.pdf_text %}
+	{% capture pdf_text %}{{ publication.pdf_text }}{% endcapture %}
+  {% else %}
+	{% capture pdf_text %}Download pdf{% endcapture %}
+  {% endif %}
+  > <a target="_blank" rel="noopener noreferrer" href={{ publication.pdf }}>{{ pdf_text }}</a>
   {% if publication.pdf_external %}
-    <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ publication.pdf }}>
+    <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ publication.link }}>
       <div class="tooltip">
         <i class="fas fa-external-link-alt fa-xs"></i>
         <span class="tooltiptext">External link</span>
