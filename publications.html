@@ -202,7 +202,7 @@ title: Publications
 		<li>
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
-			{{ publication.title }}.
+			{% include publications_title_with_punctuation.html %}
 			{% if publication.editors %}
 				<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}.</b>
 			{% endif %}
@@ -215,13 +215,13 @@ title: Publications
 				<i>{{ publication.series }}</i>, <b>{{ publication.volume }}</b>.
 			{% endif %}
 			{% if    publication.publisher and publication.place         and publication.isbn         %}
-				{{ publication.publisher }}, {{ publication.place }}, ISBN {{ publication.isbn }}.
+				{{ publication.publisher }}, {{ publication.place }}, ISBN {{ publication.isbn }}{% if publication.pages%}, pp. {{publication.pages}}{% endif %}.
 			{% elsif publication.publisher and publication.place == null and publication.isbn         %}
-				{{ publication.publisher }}, ISBN {{ publication.isbn }}.
+				{{ publication.publisher }}, ISBN {{ publication.isbn }}{% if publication.pages%}, pp. {{publication.pages}}{% endif %}.
 			{% elsif publication.publisher and publication.place         and publication.isbn == null %}
-				{{ publication.publisher }}, {{ publication.place }}.
+				{{ publication.publisher }}, {{ publication.place }}{% if publication.pages%}, pp. {{publication.pages}}{% endif %}.
 			{% elsif publication.publisher and publication.place == null and publication.isbn == null %}
-				{{ publication.publisher }}.
+				{{ publication.publisher }}{% if publication.pages%}, pp. {{publication.pages}}{% endif %}.
 			{% endif %}
 			{% include publications_pdf_and_notes.html %}
 		</li>
