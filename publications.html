@@ -202,7 +202,12 @@ title: Publications
 		<li>
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
-			{% include publications_title_with_punctuation.html %}
+			{% capture lastchar %}{{ publication.title | slice:-1 }}{% endcapture %}
+			{% if lastchar == "?" or lastchar == "!" %}
+				{{ publication.title }}
+			{% else %}
+				{{ publication.title }}.
+			{% endif %}
 			{% if publication.editors %}
 				<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}.</b>
 			{% endif %}
