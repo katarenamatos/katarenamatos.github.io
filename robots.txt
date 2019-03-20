@@ -1,4 +1,3 @@
 user-agent: *
 disallow: /images/
-disallow: /photography.html
 sitemap: https://dviviroli.github.io/sitemap.txt
