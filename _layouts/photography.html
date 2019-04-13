@@ -57,11 +57,13 @@
 		<script src="assets/js/lozad.min.js"></script>
     <script type="text/javascript">
     var observer = lozad('.lozad', {
+				threshold: 0.1,
         load: function(el) {
 	          el.src = el.getAttribute("data-src");
         }
     })
     var pictureObserver = lozad('.lozad-picture', {
+				threshold: 0.1
     })
     observer.observe()
     pictureObserver.observe()
