@@ -53,6 +53,20 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main_photography.js"></script>
 
+		<!-- lazy load -->
+		<script src="assets/js/lozad.min.js"></script>
+    <script type="text/javascript">
+    var observer = lozad('.lozad', {
+        load: function(el) {
+	          el.src = el.getAttribute("data-src");
+        }
+    })
+    var pictureObserver = lozad('.lozad-picture', {
+    })
+    observer.observe()
+    pictureObserver.observe()
+    </script>
+
 		</div>
 	</body>
 </html>
