@@ -57,12 +57,13 @@
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script> -->
     <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"> -->
     <!-- <script src="https://rawgit.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js"></script> -->
-		<!-- Lazyload implementation; don't forhet that need to set <img class="lozad" data-src=[...] in main photography.html page! -->
+		<!-- Lazyload implementation; don't forget that need to set <img class="lozad" data-src=[...] in main photography.html page! -->
 		<!-- <script src="assets/js/jquery.min.js"></script> -->
 		<script src="assets/js/lozad.min.js"></script>
 		<script type="text/javascript">
 	    var observer = lozad('.lozad', {
-	        threshold: 0.1,
+					rootMargin: '1000px 0px',
+				  threshold: 0.1,
 	        load: function(el) {
 	            el.src = el.getAttribute("data-src");
 							// el.onload = function() {
