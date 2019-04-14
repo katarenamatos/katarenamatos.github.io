@@ -25,8 +25,6 @@
 
 	</head>
 
-	<!-- <script src="assets/js/scramble.js"></script> -->
-
 	<body class="is-preload">
 		<div id="wrapper">
 		<!-- Header -->
@@ -53,21 +51,31 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main_photography.js"></script>
 
-		<!-- lazy load -->
+		<!-- LAZY LOADING -->
+		<!-- Toastr resources forn notifications - check whther lazyload is working... -->
+    <!-- <script src="assets/js/jquery.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"> -->
+    <!-- <script src="https://rawgit.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js"></script> -->
+		<!-- Lazyload implementation; don't forhet that need to set <img class="lozad" data-src=[...] in main photography.html page! -->
+		<!-- <script src="assets/js/jquery.min.js"></script> -->
 		<script src="assets/js/lozad.min.js"></script>
-    <script type="text/javascript">
-    var observer = lozad('.lozad', {
-				threshold: 0.1,
-        load: function(el) {
-	          el.src = el.getAttribute("data-src");
-        }
-    })
-    var pictureObserver = lozad('.lozad-picture', {
-				threshold: 0.1
-    })
-    observer.observe()
-    pictureObserver.observe()
-    </script>
+		<script type="text/javascript">
+	    var observer = lozad('.lozad', {
+	        threshold: 0.1,
+	        load: function(el) {
+	            el.src = el.getAttribute("data-src");
+							// el.onload = function() {
+	            //     toastr["success"](el.localName.toUpperCase() + " " + el.getAttribute("data-src") + " lazy loaded.")
+							// 	}
+	        }
+	    })
+	    var pictureObserver = lozad('.lozad-picture', {
+	        threshold: 0.1
+	    })
+	  	observer.observe()
+	  	pictureObserver.observe()
+  	</script>
 
 		</div>
 	</body>
