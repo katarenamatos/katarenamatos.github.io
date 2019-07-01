@@ -9,14 +9,22 @@
   title:  Klimaänderung und Niedrigwasser. Auswirkungen der Klimaänderung auf die Niedrigwasserverhältnisse im Schweizer Mittelland für 2021–2050 und 2070–2099
   report: Schlussbericht CCHydro – Modul 4
   institution: Geographisches Institut der Universität Bern, Bern
+  pdf: "https://www.bafu.admin.ch/dam/bafu/de/dokumente/hydrologie/externe-studien-berichte/klimaaenderung-und-niedrigwasser.pdf.download.pdf/Klima%C3%A4nderung%20und%20Niedrigwasser.pdf"
+  pdf_external: Y
+  link: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
+  link_text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
+  link_external: Y
 
 - authors: Köplin N, Schädler B, Viviroli D, Weingartner R
   year: 2011
   title: Klimaänderung und Wasserhaushalt in sensitiven Bilanzierungsgebieten
   report: Schlussbericht CCHydro – Modul 3
   institution: Geographisches Institut der Universität Bern, Bern
-  pdf: "https://www.researchgate.net/publication/296332037_Klimaanderung_und_Wasserhaushalt_in_sensitiven_Bilanzierungsgebieten_Schlussbericht_CCHydro_-_Modul_3"
+  pdf: "https://www.bafu.admin.ch/dam/bafu/de/dokumente/hydrologie/externe-studien-berichte/klimaaenderung-und-wasserhaushalt-in-sensitiven-bilanzierungsgebieten.pdf.download.pdf/Klima%C3%A4nderung%20und%20Wasserhaushalt%20in%20sensitiven%20Bilanzierungsgebieten.pdf"
   pdf_external: Y
+  link: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
+  link_text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
+  link_external: Y
 
 - authors: Schwanbeck J, Viviroli D, Weingartner R, Röser I, Trösch J
   year: 2007
@@ -29,3 +37,5 @@
   title: Potenzialanalyse Kleinwasserkraftwerke. Kraftwerke an Fliessgewässern
   report: Schlussbericht zu einer Studie im Auftrag des Bundesamtes für Energie (BfE), Programm Kleinwasserkraft
   institution:  econcept AG, Zürich; Geographisches Institut der Universität Bern, Bern
+  pdf: "https://www.zora.uzh.ch/id/eprint/112001/1/e_wwa_wkr_restwasser/bve_wwa_wkr_restwasser_dokumentat"
+  pdf_external: Y
