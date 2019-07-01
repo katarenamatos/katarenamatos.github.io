@@ -14,6 +14,32 @@ title: Publications
 	<ul>
 </div>
 
+{% if site.data.publications_papers-preprints %}
+
+	<h2>Preprints</h2>
+	<a class="anchor" id="PP"></a>
+	<ol reversed="">
+		{% for publication in site.data.publications_papers-preprints %}
+			<li>
+				<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ publication.year }}.</b>
+				{% capture lastchar %}{{ publication.title | slice:-1 }}{% endcapture %}
+				{% if lastchar == "?" or lastchar == "!" %}
+					{{ publication.title }}
+				{% else %}
+					{{ publication.title }}.
+				{% endif %}
+				<i>{{ publication.archive }}</i>, {{ publication.date }},
+				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endfor %}
+	</ol>
+
+	<hr/>
+
+{% endif %}
+
 <h2>Articles in peer-reviewed journals <small>(ISI listed)</small></h2>
 <a class="anchor" id="JP"></a>
 <ol reversed="">

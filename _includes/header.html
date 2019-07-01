@@ -10,7 +10,17 @@
         <li{{ current }}><a href="{{ entry.url }}">{{ entry.title }}</a>
         {% if entry.sub_n %}
           <ul>
-            {% for sub_i in (1..{{entry.sub_n}}) %}
+            <!-- need rather awkward way to check whether "preprints" nees to be excluded if corresponding yaml is not present -->
+            {% if entry.title == "Publications" %}
+              {% if site.data.publications_papers-preprints %}
+                {% assign i_start = 1 %}
+              {% else %}
+                {% assign i_start = 2 %}
+              {% endif %}
+            {% else %}
+              {% assign i_start = 1 %}
+            {% endif %}
+            {% for sub_i in ({{i_start}}..{{entry.sub_n}}) %}
               {% capture dropdown_link %}sub{{sub_i}}_anchor{% endcapture %}
               {% capture dropdown_text %}sub{{sub_i}}_text{% endcapture %}
               <a href={{ entry.url }}#{{ entry.[dropdown_link] }}>{{ entry.[dropdown_text] }}</a>

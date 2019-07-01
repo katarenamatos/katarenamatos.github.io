@@ -17,8 +17,10 @@ title: Photography
 			{% if image.path contains 'fulls' and image.path contains 'water'%}
 				<article class="thumb">
 					<a href="{{ site.baseurl }}{{ site.image_water_fulls_loc }}/{{ image.name }}" class="image">
-						<img class="lozad" data-src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/>
-						<noscript><img src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/></noscript>
+						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/> -->
+						<!-- <noscript> -->
+							<img src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/>
+						<!-- </noscript> -->
 					</a>
 				</article>
 			{% endif %}
@@ -37,8 +39,10 @@ title: Photography
 			{% if image.path contains 'fulls' and image.path contains 'mountains' %}
 				<article class="thumb">
 					<a href="{{ site.baseurl }}{{ site.image_mountains_fulls_loc }}/{{ image.name }}" class="image">
-						<img class="lozad" data-src="{{ site.baseurl }}{{ site.image_mountains_thumbs_loc }}/{{ image.name }}"/>
-						<noscript><img src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/></noscript>
+						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_mountains_thumbs_loc }}/{{ image.name }}"/> -->
+						<!-- <noscript> -->
+							<img src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/>
+						<!-- </noscript> -->
 					</a>
 				</article>
 			{% endif %}
@@ -57,8 +61,10 @@ title: Photography
 			{% if image.path contains 'fulls' and image.path contains 'weather' %}
 				<article class="thumb">
 					<a href="{{ site.baseurl }}{{ site.image_weather_fulls_loc }}/{{ image.name }}" class="image">
-						<img class="lozad" data-src="{{ site.baseurl }}{{ site.image_weather_thumbs_loc }}/{{ image.name }}"/>
-						<noscript><img src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/></noscript>
+						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_weather_thumbs_loc }}/{{ image.name }}"/> -->
+						<!-- <noscript> -->
+							<img src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/>
+						<!-- </noscript> -->
 					</a>
 				</article>
 			{% endif %}
