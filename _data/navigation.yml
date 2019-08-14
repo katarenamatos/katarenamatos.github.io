@@ -1,6 +1,9 @@
 - title: Home
   url: /index.html
 
+- title: About
+  url: /about.html
+
 - title: Publications
   url: /publications.html
   sub_n: 9
