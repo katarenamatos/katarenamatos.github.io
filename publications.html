@@ -198,21 +198,25 @@ title: Publications
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
 			{{ publication.title }}.
-			<i>{{ publication.journal }}</i>,
-			{% if publication.issue and publication.doi %}
-				<b>{{ publication.volume }}</b>({{ publication.issue }}),
-				{{ publication.pages }},
-				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
-			{% elsif publication.issue and publication.doi == null %}
-				<b>{{ publication.volume }}</b>({{ publication.issue }}),
-				{{ publication.pages }}.
-			{% elsif publication.issue == null and publication.doi %}
-				<b>{{ publication.volume }}</b>,
-				{{ publication.pages }},
-				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+			{% if publication.pages %}
+				<i>{{ publication.journal }}</i>,
+				{% if publication.issue and publication.doi %}
+					<b>{{ publication.volume }}</b>({{ publication.issue }}),
+					{{ publication.pages }},
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+				{% elsif publication.issue and publication.doi == null %}
+					<b>{{ publication.volume }}</b>({{ publication.issue }}),
+					{{ publication.pages }}.
+				{% elsif publication.issue == null and publication.doi %}
+					<b>{{ publication.volume }}</b>,
+					{{ publication.pages }},
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+				{% else %}
+					<b>{{ publication.volume }}</b>,
+					{{ publication.pages }}.
+				{% endif %}
 			{% else %}
-				<b>{{ publication.volume }}</b>,
-				{{ publication.pages }}.
+				<i>{{ publication.journal }}</i>.
 			{% endif %}
 			{% include publications_pdf_and_notes.html %}
 		</li>
