@@ -1,3 +1,14 @@
+- authors: "[Contributing author to:] Hock R, Rasul G et al."
+  year: 2019
+  title: High Mountain Areas
+  editors: Intergovernmental Panel on Climate Change (IPCC), ed
+  booktitle: Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)
+  publisher: IPCC
+  place: Geneva
+  pdf: https://www.ipcc.ch/srocc/download-report/
+  pdf_text: Download pdf
+  pdf_external: Y
+
 - authors: Viviroli D
   year: 2013
   title: Methoden für die Hochwasserabschätzung
