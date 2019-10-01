@@ -216,7 +216,8 @@ title: Publications
 					{{ publication.pages }}.
 				{% endif %}
 			{% else %}
-				<i>{{ publication.journal }}</i>.
+				<i>{{ publication.journal }}</i>,
+				<b>{{ publication.volume }}</b>.
 			{% endif %}
 			{% include publications_pdf_and_notes.html %}
 		</li>
