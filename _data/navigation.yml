@@ -36,10 +36,12 @@
 
 - title: Photography
   url: /photography.html
-  sub_n: 3
+  sub_n: 4
   sub1_text: Water
   sub1_anchor: wa
   sub2_text: Mountains
   sub2_anchor: mo
   sub3_text: Weather
   sub3_anchor: we
+  sub4_text: Snow & ice
+  sub4_anchor: si
