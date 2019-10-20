@@ -1,3 +1,8 @@
+- title: Flood events from continous simulation in the context of dam safety
+  subtitle: Development of statistical methods for evaluating long-term hydrometeorological simulation results
+  where: University of Zurich
+  funding: Swiss Federal Office of Energy (SFOE)§Swiss Federal Office for the Environment (FOEN)
+
 - title: Flood hazards and risk trends along the Aare River under a changing climate
   subtitle: Study within the pilot programme on climate change adaptation in Switzerland
   where: University of Zurich
@@ -24,11 +29,6 @@
   moreinfo_link: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/dossiers/grossprojekte-hochwasserschutz/gefahrengrundlagen-fuer-extremhochwasser-an-aare-und-rhein--exar.html"
   moreinfo_text: More info
   moreinfo_external: Y
-
-- title: Value of data in ungauged catchments
-  subtitle: Can hydrological models be improved with well-targeted field measurements?
-  where: University of Zurich
-  funding: University of Zurich
 
 - title: Significance of mountain areas for water resources ("Water Towers")
   subtitle: Data- and model-based analyses from regional to global scale
