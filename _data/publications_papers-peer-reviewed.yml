@@ -12,6 +12,10 @@
   volume: 10
   pages: 4018
   doi: 10.1038/s41467-019-11543-9
+  pdf: https://www.nature.com/articles/s41467-019-11543-9.pdf
+  pdf_openaccess: Y
+  pdf_external: Y
+
 
 - authors: Pool S, Viviroli D, Seibert J
   year: 2019

@@ -5,9 +5,12 @@
   booktitle: IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)
   publisher: Intergovernmental Panel on Climate Change (IPCC)
   place: Geneva
-  pdf: https://www.ipcc.ch/srocc/download-report/
-  pdf_text: Download pdf
+  pdf: https://report.ipcc.ch/srocc/pdf/SROCC_FinalDraft_Chapter2.pdf
+  pdf_text: Download chapter pdf
   pdf_external: Y
+  link: https://www.ipcc.ch/srocc/chapter/chapter-2/
+  link_text: Access chapter online
+  link_external: Y
 
 - authors: Viviroli D
   year: 2013
