@@ -1,15 +1,17 @@
+- authors: Immerzeel WW, Lutz AF, Andrade M, Bahl A, Biemans H, Bolch T, Hyde S, Brumby S, Davies BJ, Elmore AC, Emmer A, Feng M, Fernández A, Haritashya U, Kargel, JS, Koppes M, Kraaijenbrink PDA, Kulkarni AV, Mayewski P, Nepal S, Pacheco P, Painter TH, Pellicciotti F, Rajaram H, Rupper S, Sinisalo A, Shrestha AB, Viviroli D, Wada Y, Xiao C, Yao T, Baillie JEM
+  year: 2020
+  title: "Importance and vulnerability of the world’s water towers"
+  journal: Nature
+  volume: 577
+  issue: 7790
+  pages: 364–369
+  doi: 10.1038/s41586-019-1822-y
+
 - authors: Westerberg IK, Sikorska-Senoner AE, Viviroli D, Vis J, Seibert J
   year: 2020
   title: Hydrologic model calibration with uncertain discharge data
   journal: Hydrological Sciences Journal
   volume: accepted
-
-- authors: Immerzeel WW, Lutz AF, Andrade M, Bahl A, Biemans H, Bolch T, Hyde S, Brumby S, Davies BJ, Elmore AC, Emmer A, Feng M, Fernández A, Haritashya U, Kargel, JS, Koppes M, Kraaijenbrink PDA, Kulkarni AV, Mayewski P, Nepal S, Pacheco P, Painter TH, Pellicciotti F, Rajaram H, Rupper S, Sinisalo A, Shrestha AB, Viviroli D, Wada Y, Xiao C, Yao T, Baillie JEM
-  year: 2019
-  title: "Importance and vulnerability of the world’s water towers"
-  journal: Nature
-  volume: in press
-  doi: 10.1038/s41586-019-1822-y
 
 - authors: Coppola AI, Seidel M, Ward ND, Viviroli D, Nascimento GS, Haghipour N, Revels BN, Abiven S, Jones MW, Richey JE, Eglinton TI, Dittmar T, Schmidt MWI
   year: 2019
@@ -21,7 +23,6 @@
   pdf: https://www.nature.com/articles/s41467-019-11543-9.pdf
   pdf_openaccess: Y
   pdf_external: Y
-
 
 - authors: Pool S, Viviroli D, Seibert J
   year: 2019
