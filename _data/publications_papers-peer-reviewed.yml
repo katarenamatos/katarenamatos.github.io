@@ -44,6 +44,7 @@
   issue: 7
   pages: 1993–2023
   doi: 10.1007/s00477-018-1523-3
+  pdf: /documents/Brunner_et_al_2018_SERRA_32.pdf
 
 - authors: Brunner MI, Viviroli D, Furrer R, Seibert J, Favre AC
   year: 2018
@@ -53,6 +54,7 @@
   issue: 3
   pages: 1852–1867
   doi: 10.1002/2017WR021650
+  pdf: /documents/Brunner_et_al_2018_WRR_54.pdf
 
 - authors: Sikorska AE, Viviroli D, Seibert J
   year: 2018
@@ -61,6 +63,7 @@
   volume: 556
   pages: 510–522
   doi: 10.1016/j.jhydrol.2017.11.028
+  pdf: /documents/Sikorska_et_al_2018_JoH_556.pdf
 
 - authors: Brunner MI, Viviroli D, Sikorska AE, Vannier O, Favre AC, Seibert J
   year: 2017
@@ -201,7 +204,7 @@
   pdf: https://www.hydrol-earth-syst-sci.net/15/471/2011/hess-15-471-2011.pdf
   pdf_openaccess: Y
   pdf_external: Y
-  notes: "Highly cited paper (in the top 1% of the academic field of Geosciences as to Essential Science Indicators)"
+  notes: "Highly cited paper in field (top 1% as to Essential Science Indicators)"
   notes_highlight: Y
 
 - authors: Viviroli D, Weingartner R
@@ -263,7 +266,7 @@
   pages: 1209–1222
   doi: 10.1016/j.envsoft.2009.04.001
   pdf: /documents/Viviroli_et_al_2009_EMS_24.pdf
-  notes: "Highly cited paper (in the top 1% of the academic field of Computer Sciences as to Essential Science Indicators)"
+  notes: "Highly cited paper in field (top 1% as to Essential Science Indicators)"
   notes_highlight: Y
 
 - authors: Viviroli D, Dürr HH, Messerli B, Meybeck M, Weingartner R
