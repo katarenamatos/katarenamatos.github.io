@@ -55,9 +55,12 @@
   years: 2008–2010
   where: University of Bern
   funding: Swiss Federal Office for the Environment (FOEN)
-  moreinfo_link: "http://www.hydrologie.unibe.ch/PREVAHregHQ/home.html"
+  moreinfo_link: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/zustand/wasser--methoden/grundlagen-zur-hochwasserabschaetzung-in-mesoskaligen-einzugsgeb.html"
   moreinfo_text: More info
   moreinfo_external: Y
+  moreinfo2_link: "http://www.hydrologie.unibe.ch/PREVAHregHQ/home.html"
+  moreinfo2_text: Download data
+  moreinfo2_external: Y
 
 - title: Flood prediction model for the Sihl River, Zurich
   subtitle: Coupling of process-oriented hydrological modelling (PREVAH) and hydraulic modelling (FLORIS)

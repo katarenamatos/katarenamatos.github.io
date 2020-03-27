@@ -49,4 +49,22 @@
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
+{% if project.moreinfo2_link %}
+	<tr valign="top">
+		<td align="right"></td>
+		<td/>
+		<td>
+			<a target="_blank" rel="noopener noreferrer" href={{ project.moreinfo2_link }}>{{ project.moreinfo2_text }}</a>
+			{% if project.moreinfo2_external %}
+				<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ project.moreinfo2_link }}>
+					<div class="tooltip">
+						<i class="fas fa-external-link-alt fa-xs"></i>
+						<span class="tooltiptext">External link</span>
+					</div>
+				</a>
+			{% endif %}
+		</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
 <tr style="height:2.0em"><td/></tr>
