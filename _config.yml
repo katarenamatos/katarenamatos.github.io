@@ -16,5 +16,5 @@ image_snow_ice_thumbs_loc: "/images/copyrighted/snow_ice/thumbs"
 
 theme: minima
 
-baseurl: /kmatos
+baseurl: /impactoclima
 exclude: ['README.md']
