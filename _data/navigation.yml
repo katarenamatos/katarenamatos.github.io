@@ -1,8 +1,8 @@
 - title: Home
-  url: impactoclima/index.html
+  url: /index.html
 
 - title: Guía
-  url: impactoclima/about.html
+  url: /about.html
 
 - title: Outros Projetos
   url: /publications.html
