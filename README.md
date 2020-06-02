@@ -1,21 +1,7 @@
----
-permalink: /index.html
----
+
+
 
 # dviviroli.github.io
-Homepage of Daniel Viviroli
+Originally the homepage of Daniel Viviroli (dviviroli.github.io)
 
-Info on my research into water in mountain areas,
-and some selected photographs
-
-Keywords:
-water towers,
-mountain hydrology,
-water resources,
-flood estimation,
-natural hazards,
-hydrological modelling,
-regionalisation,
-climate change,
-global change,
-Geographic Information Systems (GIS)
+Currently being worked on to learn how to work on Jekyll, Github-Pages, CSS, HTML and science communication. 
