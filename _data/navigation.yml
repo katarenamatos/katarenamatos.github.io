@@ -1,11 +1,11 @@
 - title: Home
-  url: /index.html
+  url: {{site.baseurl}}/index.html
 
 - title: Guía
-  url: /about.html
+  url: {{site.baseurl}}/about.html
 
 - title: Outros Projetos
-  url: /publications.html
+  url: {{site.baseurl}}/publications.html
   sub_n: 9
   sub1_text: Preprints
   sub1_anchor: PP
@@ -27,7 +27,7 @@
   sub9_anchor: PR
 
 - title: Sobre o IEC
-  url: /projects.html
+  url: {{site.baseurl}}/projects.html
   sub_n: 2
   sub1_text: Current
   sub1_anchor: curr
@@ -35,7 +35,7 @@
   sub2_anchor: compl
 
 - title: Photography
-  url: /photography.html
+  url: {{site.baseurl}}/photography.html
   sub_n: 4
   sub1_text: Water
   sub1_anchor: wa
