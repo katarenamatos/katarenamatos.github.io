@@ -15,6 +15,3 @@ image_snow_ice_fulls_loc: "/images/copyrighted/snow_ice/fulls"
 image_snow_ice_thumbs_loc: "/images/copyrighted/snow_ice/thumbs"
 
 theme: minima
-
-baseurl: /impactoclima
-exclude: ['README.md']
