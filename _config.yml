@@ -1,5 +1,7 @@
-url: https://katarenamatos.github.io/impactoclima
-baseurl: ""
+
+baseurl: /impactoclima
+exclude: ['README.md']
+
 # Beware, need to rebuild with jekyll serve from scratch if changed here,
 # or added photos. Changes are not updated real-time!
 
