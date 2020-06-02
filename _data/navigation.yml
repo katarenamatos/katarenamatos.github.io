@@ -1,10 +1,10 @@
 - title: Home
   url: /index.html
 
-- title: About
+- title: Guía
   url: /about.html
 
-- title: Publications
+- title: Outros Projetos
   url: /publications.html
   sub_n: 9
   sub1_text: Preprints
@@ -26,7 +26,7 @@
   sub9_text: Project reports
   sub9_anchor: PR
 
-- title: Projects
+- title: Sobre o IEC
   url: /projects.html
   sub_n: 2
   sub1_text: Current
