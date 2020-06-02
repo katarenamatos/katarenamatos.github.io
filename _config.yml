@@ -13,3 +13,5 @@ image_weather_thumbs_loc: "/images/copyrighted/weather/thumbs"
 
 image_snow_ice_fulls_loc: "/images/copyrighted/snow_ice/fulls"
 image_snow_ice_thumbs_loc: "/images/copyrighted/snow_ice/thumbs"
+
+remote_theme: pages-theme/minimal
