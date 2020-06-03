@@ -1,8 +1,8 @@
 <header id="header" class={{ page.navtype }}>
   {% if page.navtype != "alt" %}
-    <h1><a href="index.html">Name of Person</a></h1>
+    <h1><a href="index.html">IEC-UFES</a></h1>
   {% else %}
-    <h1>Name of Person</h1>
+    <h1>IEC-UFES</h1>
   {% endif %}
   <nav id="nav">
     <ul>
@@ -11,7 +11,7 @@
         {% if entry.sub_n %}
           <ul>
             <!-- need rather awkward way to check whether "preprints" nees to be excluded if corresponding yaml is not present -->
-            {% if entry.title == "Publications" %}
+            {% if entry.title == "Guía" %}
               {% if site.data.publications_papers-preprints %}
                 {% assign i_start = 1 %}
               {% else %}
