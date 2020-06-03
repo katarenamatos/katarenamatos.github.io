@@ -11,7 +11,7 @@
         {% if entry.sub_n %}
           <ul>
             <!-- need rather awkward way to check whether "preprints" nees to be excluded if corresponding yaml is not present -->
-            {% if entry.title == "Guía" %}
+            {% if entry.title == "Guia" %}
               {% if site.data.publications_papers-preprints %}
                 {% assign i_start = 1 %}
               {% else %}
